@@ -1,6 +1,6 @@
 # jenkins-vagrant
 
-Create and instance of Jenkins with Vagrant
+Create an instance of Jenkins with Vagrant
 
 # Get Started
 
@@ -18,6 +18,6 @@ https://gist.github.com/aweijnitz/9628014b766e02f0a4c8
 
 # Todo
 
--[] add dotfiles
--[] add jenkins plugins by default
--[] provisions some users
+-[ ] add dotfiles
+-[ ] add jenkins plugins by default
+-[ ] provisions some users
