@@ -9,7 +9,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Every Vagrant virtual environment requires a box to build off of.
   # Named boxes, like this one, don't need a URL, since the are looked up
   # in the "vagrant cloud" (https://vagrantcloud.com)
-  config.vm.box = "chef/debian-7.4"
+  config.vm.box = "http://puppet-vagrant-boxes.puppetlabs.com/ubuntu-server-12042-x64-vbox4210.box"
 
   # Publish guest port 6060 on host port 6060
   config.vm.network "forwarded_port", guest: 6060, host: 6060
