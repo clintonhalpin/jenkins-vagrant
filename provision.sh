@@ -12,6 +12,18 @@ else
 	echo "CHECK - Subversion already installed"
 fi
 
+if [ ! -f /usr/bin/git ]; 
+then
+	echo "-------- ADDING GIT ------------"
+	echo "---------------------------------------------"
+
+	## Install Git
+	apt-get update
+	apt-get install git-core
+else
+	echo "CHECK - Git already installed"
+fi
+
 
 if [ ! -f /usr/lib/jvm/java-7-oracle/bin/java ]; 
 then
